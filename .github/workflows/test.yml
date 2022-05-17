@@ -1,4 +1,4 @@
-name: Community Scrapper
+name: Test
 
 on:
   workflow_dispatch:
@@ -13,5 +13,4 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: 16
-      - run: npm ci
       - run: npm start
